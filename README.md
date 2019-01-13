@@ -21,10 +21,23 @@ source ~/XX_ws/devel/setup.bash
 ```
 roslaunch trajectory trajectory_test.launch
 ```
-4.You can also use the tool in real exploration:
+You can see the circular trajectory in **rviz**.  
+4.In another new terminal, run:
+```
+rostopic echo /route_topic
+```
+then You can see the total time and total path length at present in this terminal.  
+5.You can also use the tool in real exploration:
 ```
 roslaunch trajectory trajectory.launch
 ```
+6.In rviz, create a visualization: Trajectory.
+Now you can see the trajectory of your exploration.  
+7.In another new terminal, run:
+```
+rostopic echo /route_topic
+```
+then You can see the total time and total path length at present in this terminal.  
 
 ### Notice
 #### 1.About name  
