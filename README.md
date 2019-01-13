@@ -31,7 +31,7 @@ then You can see the total time and total path length at present in this termina
 ```
 roslaunch trajectory trajectory.launch
 ```
-6.In rviz, create a visualization: Trajectory.
+6.In rviz, create a visualization: Trajectory.  
 Now you can see the trajectory of your exploration.  
 7.In another new terminal, run:
 ```
