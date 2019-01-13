@@ -1,7 +1,7 @@
 # exploration-tool
 This pkg contain some tools which will be used in exploration.
 
-**Functions:**  
+Functions:  
 ***Recording exploration trajectory  
 Recording exploration length and time*** 
 
