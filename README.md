@@ -7,7 +7,7 @@ Recording exploration length and time***
 
   
 ### How to run this project?
-
+#### A.basic  
 1.Clone it into your working space and use compile it:
 ```Bash
 cd ~/XX_ws
@@ -17,6 +17,7 @@ catkin_make
 ```Bash
 source ~/XX_ws/devel/setup.bash
 ```
+#### B.trajectory and route length  
 3.You can test the code without any simulation environment:
 ```
 roslaunch trajectory trajectory_test.launch
@@ -38,6 +39,15 @@ Now you can see the trajectory of your exploration.
 rostopic echo /route_topic
 ```
 then You can see the total time and total path length at present in this terminal.  
+#### C.exploration percentage  
+8.Modify .yaml file in directory ../explore_percent/map .  
+You need to modify the path of image in the first line.   
+9.In a new terminal, type:
+```
+roslaunch explore_percent GetFullMap.launch
+```
+This node will read the given map file and publish it to topic **/full_map**.  
+The pecentage of exploration will be publish to topic **/occpercent**.  
 
 ### Notice
 #### 1.About name  
