@@ -2,9 +2,9 @@
 This pkg contain some tools which will be used in exploration.
 
 Functions:  
-***Recording exploration trajectory  
-Recording exploration length and time  
-Calculate exploration percentage*** 
+***No.1 Recording exploration trajectory  
+No.2 Recording exploration length and time  
+No.3 Calculate exploration percentage*** 
 
   
 ### How to run this project?
