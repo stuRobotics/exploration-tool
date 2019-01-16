@@ -22,26 +22,31 @@ source ~/XX_ws/devel/setup.bash
 ```
 roslaunch trajectory trajectory_test.launch
 ```
-You can see the circular trajectory in **rviz**.  
+You can see the circular trajectory in **rviz**.    
+
 4.In another new terminal, run:
 ```
 rostopic echo /route_topic
 ```
 then You can see the total time and total path length at present in this terminal.  
+
 5.You can also use the tool in real exploration:
 ```
 roslaunch trajectory trajectory.launch
 ```
 6.In rviz, create a visualization: Trajectory.  
 Now you can see the trajectory of your exploration.  
+
 7.In another new terminal, run:
 ```
 rostopic echo /route_topic
 ```
 then You can see the total time and total path length at present in this terminal.  
+
 #### C.exploration percentage  
 8.Modify .yaml file in directory ../explore_percent/map .  
 You need to modify the path of image in the first line.   
+
 9.In a new terminal, type:
 ```
 roslaunch explore_percent GetFullMap.launch
