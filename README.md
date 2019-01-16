@@ -48,7 +48,13 @@ then You can see the total time and total path length at present in this termina
 8.Modify .yaml file in directory ../explore_percent/map .  
 You need to modify the path of image in the first line.   
 
-9.In a new terminal, type:
+9.You can test the code without any simulation environment:
+```
+roslaunch explore_percent Test.launch
+```
+Now you can see the given map in **rviz**.  
+
+10.You can also use it in real exploration:
 ```
 roslaunch explore_percent GetFullMap.launch
 ```
