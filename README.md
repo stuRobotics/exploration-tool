@@ -3,7 +3,8 @@ This pkg contain some tools which will be used in exploration.
 
 Functions:  
 ***Recording exploration trajectory  
-Recording exploration length and time*** 
+Recording exploration length and time  
+Calculate exploration percentage*** 
 
   
 ### How to run this project?
@@ -58,5 +59,8 @@ The pecentage of exploration will be publish to topic **/occpercent**.
 #### 1.About name  
 The topic name of odometory should be **/odom**.  
 If not, please remap the real topic name to **/odom**.  
+
+The topic name of map should be **/map**.  
+If not, please remap the real topic name to **/map**.  
 #### 2.About time  
 The timer will start when this node runs, so please add it into launch file of your exploration launch file.
